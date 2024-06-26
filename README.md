@@ -29,10 +29,10 @@
     1) Provides a switch to toggle between light and dark themes.
     2) Dispatches an action to update the theme in Redux state.
     
- # 6) Redux Setup :
-    1) Actions `src/redux/actions.js`: Define action types and creators for adding, deleting, editing tasks, toggling task completion, and toggling themes.
-    2) Reducers `src/redux/reducers.js` : Handle state changes based on dispatched actions.
-    3) Store `src/redux/store.js` : Configures the Redux store with reducers and middleware.
+ # 6) Redux Setup :    
+  1) Actions `src/redux/actions.js`: Define action types and creators for adding, deleting, editing tasks, toggling task completion, and toggling themes.
+  2) Reducers `src/redux/reducers.js` : Handle state changes based on dispatched actions.
+  3) Store `src/redux/store.js` : Configures the Redux store with reducers and middleware.
     
  # 7) CSS `src/App.css` :
     1) Styles the application.

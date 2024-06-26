@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# To-Do-Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview :
 
-## Available Scripts
+    This project is a responsive To-Do application built using ReactJS with Redux for state management. Users can add, view, edit, mark as complete, and delete tasks. 
+    The application supports light and dark themes, which can be toggled using a switch. Task data persists using local storage, ensuring tasks are retained across page 
+    reloads.
 
-In the project directory, you can run:
+# Component and Functionality Description :
 
-### `npm start`
+     # 1) App Component (`src/App.js`):
+      1) Serves as the main component.
+      2)Integrates the TaskInput, TaskList, and ThemeToggle components.
+      3)Applies theme to the body based on Redux state.
+      
+    # 2) TaskInput Component (src/components/TaskInput.js):
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Contains an input field and a button.
+Allows users to add new tasks to the list.
+TaskList Component (src/components/TaskList.js):
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Displays the list of tasks.
+Maps over tasks from Redux state to render individual TaskItem components.
+TaskItem Component (src/components/TaskItem.js):
 
-### `npm test`
+Represents a single task.
+Allows editing, marking as complete, and deleting the task.
+Uses CSS to handle long task sentences and keep buttons aligned.
+ThemeToggle Component (src/components/ThemeToggle.js):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Provides a switch to toggle between light and dark themes.
+Dispatches an action to update the theme in Redux state.
+Redux Setup:
 
-### `npm run build`
+Actions (src/redux/actions.js): Define action types and creators for adding, deleting, editing tasks, toggling task completion, and toggling themes.
+Reducers (src/redux/reducers.js): Handle state changes based on dispatched actions.
+Store (src/redux/store.js): Configures the Redux store with reducers and middleware.
+CSS (src/App.css):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styles the application.
+Includes styles for light and dark themes, and ensures proper layout and overflow handling for tasks and buttons.     
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

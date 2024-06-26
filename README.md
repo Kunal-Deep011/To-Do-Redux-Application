@@ -8,7 +8,7 @@
 
 # Component and Functionality Description :
 
-     # 1) App Component (`src/App.js`):
+# 1) App Component `src/App.js`:
       1) Serves as the main component.
       2)Integrates the TaskInput, TaskList, and ThemeToggle components.
       3)Applies theme to the body based on Redux state.

@@ -16,7 +16,7 @@
     1) Contains an input field and a button.
     2) Allows users to add new tasks to the list.
     
- # 3) TaskList Component (src/components/TaskList.js)
+ # 3) TaskList Component `src/components/TaskList.js` :
     1) Displays the list of tasks.
     2) Maps over tasks from Redux state to render individual TaskItem components.
     
@@ -36,7 +36,24 @@
     
  # 7) CSS `src/App.css` :
     1) Styles the application.
-    2) Includes styles for light and dark themes, and ensures proper layout and overflow handling for tasks and buttons.     
+    2) Includes styles for light and dark themes, and ensures proper layout and overflow handling for tasks and buttons. 
+    
+# Conclusions :
+     This To-Do application demonstrates the use of functional components, React hooks (useState, useEffect), and state management with Redux, ensuring a scalable and 
+     maintainable codebase.
+     
+# Screenshots :
+    Laptop-View :
+    ![laptop-visual](https://github.com/Kunal-Deep011/To-Do-Redux- Application/assets/117732649/2c4a53bd-f3cf-45c7-9457-3e7b1b7383ab)
+
+    Tablet-View :
+    ![tab-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/473eb812-b886-4476-8cda-ea5c92fe6888)
+
+    Mobile-View :
+    ![mobile-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/4ec6638b-7af8-44f6-b01b-f518f9dddc7d)
+
+
+
 
 
 

@@ -43,14 +43,14 @@
      maintainable codebase.
      
 # Screenshots :
-    Laptop-View :
-    ![laptop-visual](https://github.com/Kunal-Deep011/To-Do-Redux- Application/assets/117732649/2c4a53bd-f3cf-45c7-9457-3e7b1b7383ab)
+    Laptop-View :   
+![laptop-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/a5f7a49f-3224-4d34-ae52-415376fe1f3e)
 
     Tablet-View :
-    ![tab-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/473eb812-b886-4476-8cda-ea5c92fe6888)
+![tab-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/473eb812-b886-4476-8cda-ea5c92fe6888)
 
     Mobile-View :
-    ![mobile-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/4ec6638b-7af8-44f6-b01b-f518f9dddc7d)
+![mobile-visual](https://github.com/Kunal-Deep011/To-Do-Redux-Application/assets/117732649/4ec6638b-7af8-44f6-b01b-f518f9dddc7d)
 
 
 

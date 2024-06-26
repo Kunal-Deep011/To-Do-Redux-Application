@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import { useSelector } from 'react-redux';
+import TaskInput from './components/TaskInput';
+import TaskList from './components/TaskList';
+import ThemeToggle from './components/ThemeToggle';
 import './App.css';
 
-function App() {
+const App = () => {
+  const theme = useSelector((state) => state.theme);
+
+  useEffect(() => {
+    document.body.className = theme === 'light' ? 'light-theme' : 'dark-theme';
+  }, [theme]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`app container mt-5 ${theme === 'light' ? 'light-theme' : 'dark-theme'}`}>
+      <div className='header'>
+         <div>TO-do-Application</div> 
+      </div>
+      <ThemeToggle />
+      <h1 className="text-center">To-Do List</h1>
+      <TaskInput />
+      <TaskList />
     </div>
   );
-}
+};
 
 export default App;

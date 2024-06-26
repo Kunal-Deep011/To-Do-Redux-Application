@@ -38,7 +38,7 @@
     1) Styles the application.
     2) Includes styles for light and dark themes, and ensures proper layout and overflow handling for tasks and buttons. 
     
-# Conclusions :
+# Conclusion :
      This To-Do application demonstrates the use of functional components, React hooks (useState, useEffect), and state management with Redux, ensuring a scalable and 
      maintainable codebase.
      
